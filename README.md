@@ -1,5 +1,5 @@
 
-# Weather App ☁️
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=sans+seriff&size=30&duration=4000&pause=1000&random=false&width=435&lines=Weather+App+%E2%98%81%EF%B8%8F)](https://git.io/typing-svg)
 
 "Stay Informed Anytime, Anywhere! ⏰🌦️
 
