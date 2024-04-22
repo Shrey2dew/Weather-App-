@@ -1,0 +1,224 @@
+.container {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: white;
+    margin-left: 30%;
+}
+
+.container.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.tourist-places {
+    width: 550px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-radius: 25px;
+}
+
+.search {
+    width: 333px;
+    height: 35px;
+    left: 115px;
+    top: 23px;
+    position: absolute;
+}
+
+.search input {
+    width: 333px;
+    height: 35px;
+    left: -37.58px;
+    top: 0px;
+    position: absolute;
+    opacity: 0.90;
+    background: #888888;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 55px;
+    border: transparent;
+    font-size: 20px;
+    color: white;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.search button {
+    cursor: pointer;
+}
+
+.search button img {
+    width: 47px;
+    height: 55px;
+    left: 315px;
+    top: 0px;
+    position: absolute;
+}
+
+.weather-details {
+    width: 550px;
+    height: 174px;
+    left: 0px;
+    top: 526px;
+    position: absolute;
+    background: rgba(124, 121, 121, 0.85);
+    z-index: 0;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) inset;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.temp {
+    width: 269px;
+    height: 158px;
+    left: 10px;
+    top: 174px;
+    position: absolute;
+    color: white;
+    font-size: 96px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px #575757;
+}
+
+.city {
+    width: 550px;
+    height: 53px;
+    left: 12px;
+    top: 279px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px #575757;
+}
+
+.humidity-label {
+    width: 256px;
+    height: 50px;
+    left: 192px;
+    top: 543px;
+    position: absolute;
+    color: rgba(1.26, 1.17, 1.17, 0.70);
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.wind {
+    width: 170px;
+    height: 50px;
+    left: 386px;
+    top: 650px;
+    position: absolute;
+    color: rgba(1.26, 1.17, 1.17, 0.70);
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.humidity {
+    width: 85px;
+    height: 50px;
+    left: 233px;
+    top: 650px;
+    position: absolute;
+    color: rgba(1.26, 1.17, 1.17, 0.70);
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.wind-speed-label {
+    width: 256px;
+    height: 50px;
+    left: 367px;
+    top: 543px;
+    position: absolute;
+    color: rgba(1.26, 1.17, 1.17, 0.70);
+    font-size: 28px;
+    font-family: Inter;
+    font-weight: 600;
+    word-wrap: break-word;
+}
+
+.humidity-icon {
+    width: 81px;
+    height: 66px;
+    left: 218px;
+    top: 580px;
+    position: absolute;
+}
+
+.wind-icon {
+    width: 81px;
+    height: 66px;
+    left: 403px;
+    top: 580px;
+    position: absolute;
+}
+
+.weather-icon {
+    width: 159.28px;
+    height: 166px;
+    left: 0px;
+    top: 526px;
+    position: absolute;
+    border-radius: 143px;
+}
+
+.day {
+    width: 283px;
+    height: 53px;
+    left: 13px;
+    top: 314px;
+    position: absolute;
+    color: white;
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px #575757;
+}
+
+.time {
+    width: 283px;
+    height: 53px;
+    left: 13px;
+    top: 377px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px #575757;
+}
+
+.weather-condition {
+    width: 283px;
+    height: 53px;
+    left: 13px;
+    top: 350px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+    text-shadow: 2px 2px #575757;
+}
