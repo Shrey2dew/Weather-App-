@@ -30,8 +30,6 @@ No more surprises, just clear and concise weather information right when you nee
 
 #### Use my api to get weather forecast
 
-```
-```
 
 | Parameter | Type     | Description                |
 | :-------- | :------- | :------------------------- |
