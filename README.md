@@ -40,12 +40,12 @@ No more surprises, just clear and concise weather information right when you nee
 
 
 
-## Demo
+## Demo 
 
 ![](https://github.com/Shrey2dew/Weather-App/blob/main/Weather%20App%20Demo.gif)
 
 
-## Tech Stack
+## Tech Stack 🧑‍💻
 
 **1.** HTML
 
