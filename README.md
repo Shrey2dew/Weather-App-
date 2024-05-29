@@ -56,5 +56,7 @@ No more surprises, just clear and concise weather information right when you nee
 
 Distributed under the MIT License. See [License](https://choosealicense.com/licenses/mit/) for more information.
 
+## Website
 
+[Mausum Site](https://mausum-site.netlify.app)⚡
 
